@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+   background:rgba(0, 0, 0, 0.55) url(https://assets.nflxext.com/ffe/siteui/vlv3/9d3533b2-0e2b-40b2-95e0-ecd7979cc88b/a3873901-5b7c-46eb-b9fa-12fea5197bd3/IN-en-20240311-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+   background-blend-mode: darken;
+}
+.logo img{
+    width: 12%;
+    margin-left: 30px;
+}
+.container{
+    position: absolute;
+    margin-left: 36%;
+    margin-top: 1%;
+    width: 458px;
+    height: 650px;
+    background-color: rgba(0, 0, 0, 0.70);
+}
+.container h1{
+   
+    margin-top: 50px;
+    margin-left: 70px;
+    color: #ffff;
+    padding-bottom: 25px;
+    font-family:Arial, Helvetica, sans-serif
+    
+}
+
+input{
+    margin-left: 70px;
+    margin-top:1px;
+    width: 320px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    border: 0.2px solid rgb(107, 105, 105);
+    font-size: 20px;
+    
+    
+}
+
+input::placeholder{
+    font-size: 15px;
+    margin-left: 15px;
+    padding: 12px;
+    color: #dad5d5;
+    
+}
+input[type=submit]{
+    width: 320px;
+    height: 40px;
+    background-color: rgb(218, 29, 12);
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 0px;
+    font-size: 16px;
+    
+
+}
+
+input[type=button]{
+    width: 320px;
+    height: 40px;
+    background-color:rgba(55, 50, 50, 0.95);
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 20px;
+    padding: 0px;
+    font-size: 16px;
+
+}
+
+input[type=checkbox]{
+    width: 20px;
+    height: 18px;
+    border-radius: 5px;
+    
+}
+
+label{
+    color: rgb(232, 230, 230);
+    
+}
+.OR a{
+    margin-top: 250px;
+    margin-right: 560px;
+    float:right;
+    color: rgb(232, 226, 226);
+}
+
+.form a{
+     
+    margin-top: 25px;
+    margin-right: 160px;
+    float:right;
+    color: rgb(232, 226, 226);
+}
+.OR{
+    position: center;
+     width: 88%; 
+     font-size:14px  ;
+}
+.bottom{
+        
+    width: 400px; 
+    padding-left: 70px ;
+    
+}
+.bottom a{
+    color:#dad5d5 ;
+}
+.footer{
+    
+    color:#bab5b5 ;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+    width: 400px; 
+    padding-left: 70px ;
+    padding-top:18px ;
+}
+    
