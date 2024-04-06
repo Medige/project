@@ -12,6 +12,7 @@ body{
     width: 12%;
     margin-left: 30px;
 }
+
 .container{
     position: absolute;
     margin-left: 36%;
@@ -39,8 +40,8 @@ input{
     border-radius: 3px;
     border: 0.2px solid rgb(107, 105, 105);
     font-size: 20px;
-    
-    
+    color:#bab5b5;
+
 }
 
 input::placeholder{
@@ -50,6 +51,7 @@ input::placeholder{
     color: #dad5d5;
     
 }
+
 input[type=submit]{
     width: 320px;
     height: 40px;
@@ -60,7 +62,6 @@ input[type=submit]{
     margin-top: 0px;
     font-size: 16px;
     
-
 }
 
 input[type=button]{
@@ -81,12 +82,14 @@ input[type=checkbox]{
     height: 18px;
     border-radius: 5px;
     
+    
 }
 
 label{
     color: rgb(232, 230, 230);
     
 }
+
 .OR a{
     margin-top: 250px;
     margin-right: 560px;
@@ -101,11 +104,13 @@ label{
     float:right;
     color: rgb(232, 226, 226);
 }
+
 .OR{
     position: center;
      width: 88%; 
      font-size:14px  ;
 }
+
 .bottom{
         
     width: 400px; 
@@ -115,6 +120,7 @@ label{
 .bottom a{
     color:#dad5d5 ;
 }
+
 .footer{
     
     color:#bab5b5 ;
@@ -123,5 +129,6 @@ label{
     width: 400px; 
     padding-left: 70px ;
     padding-top:18px ;
+
 }
     
